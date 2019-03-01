@@ -21,3 +21,7 @@ var z = 10 + 5;
     console.log(eval("10 * 20 + 8"));
     console.log(eval());
 
+var age = 18;
+var isAdult = (age < 18) ? "Too young" : "Old enough";
+    console.log(isAdult)
+
