@@ -116,3 +116,18 @@ do {
     do_while++;
 }
 while(do_while<=25);
+
+// Break and Continue 08-08
+for(i=0; i<=10; i++){
+    if (i==5){
+        break;
+    }
+    console.log("Contagem <5: " + i);
+}
+
+for(c=3; c<=7;c++){
+    if (c==5){
+        continue;
+    }
+    console.log("Bora continuar após ignorar o 5 --> " + c);
+}
