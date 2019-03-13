@@ -74,3 +74,21 @@ switch(color){
     default:
         console.log("Color not found.");
 }
+
+// The For Loop 05-08
+// for (statement 1; statement 2; statement 3){
+    // code block to be executed
+// }
+for (i=1; i<=5; i++) {
+    console.log(i);
+}
+
+var other_for = 1;
+    for (; other_for<=5; other_for++) {
+        console.log(other_for);
+    }
+
+for (more_other_for=1, text=""; more_other_for<=5; more_other_for++){
+    text = more_other_for;
+    console.log(more_other_for);
+}
