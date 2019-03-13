@@ -131,3 +131,38 @@ for(c=3; c<=7;c++){
     }
     console.log("Bora continuar após ignorar o 5 --> " + c);
 }
+
+// Module 3 Quiz
+
+// 1)
+var x = 0;
+while (x < 6) {
+    x++
+}
+console.log(x);
+
+// 2)
+day_of_week = 7;
+switch(day_of_week){
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+        console.log("Working Days");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Today is Sunday");
+        break;
+}
+
+// 3)
+z = 7;
+do {
+    console.log(z)
+    z++;
+}
+while(z<10);
