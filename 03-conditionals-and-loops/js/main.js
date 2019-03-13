@@ -92,3 +92,14 @@ for (more_other_for=1, text=""; more_other_for<=5; more_other_for++){
     text = more_other_for;
     console.log(more_other_for);
 }
+
+// The While Loop
+// while (condition){
+//     code block
+// }
+
+var frutas=0;
+while(frutas<=10){
+    console.log("Temos " + frutas + " frutas agora");
+    frutas++;
+}
