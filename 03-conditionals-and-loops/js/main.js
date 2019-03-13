@@ -36,3 +36,41 @@ if (status == 1){
 console.log(msg)
 
 // The switch Statement 04-08
+var day = 2;
+switch(day){
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    default:
+        console.log("Weekend")
+}
+
+var color = "yellow";
+switch(color){
+    case "blue":
+        console.log("This is blue.");
+        break;
+    case "red":
+        console.log("This is red.");
+        break;
+    case "orange":
+        console.log("This is orange.");
+        break;
+    case "green":
+        console.log("This is green.");
+        break;
+    default:
+        console.log("Color not found.");
+}
