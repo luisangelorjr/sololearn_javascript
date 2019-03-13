@@ -4,7 +4,7 @@
 // }
 
 function myAlert() {
-    alert("FUNCTIONS - Calling a Funtion!");
+    alert("FUNCTIONS - Calling a Function!");
 }
 
 myAlert();
