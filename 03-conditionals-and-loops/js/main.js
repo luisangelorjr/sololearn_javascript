@@ -11,3 +11,23 @@ if (myNum1 > myNum2){
 else {
     alert("This is my second condition.\nEssa é minha segunda opção.")
 }
+
+var course = 3
+if (course == 1){
+    console.log("1");
+} else if (course == 2){
+    console.log("2");
+} else {
+    console.log("3");
+}
+
+var status = 1;
+var msg;
+if (status == 1){
+    msg = "Online";
+} else if (status == 2){
+    msg = "Away";
+} else {
+    msg = "Offline";
+}
+console.log(msg)
