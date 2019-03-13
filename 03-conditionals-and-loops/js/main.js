@@ -93,7 +93,7 @@ for (more_other_for=1, text=""; more_other_for<=5; more_other_for++){
     console.log(more_other_for);
 }
 
-// The While Loop
+// The While Loop 06-08
 // while (condition){
 //     code block
 // }
@@ -104,7 +104,7 @@ while(frutas <= 10){
     frutas++;
 }
 
-// The Do While Loop
+// The Do While Loop 07-08
 // do {
 //     code block
 // }
