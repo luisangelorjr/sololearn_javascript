@@ -98,8 +98,21 @@ for (more_other_for=1, text=""; more_other_for<=5; more_other_for++){
 //     code block
 // }
 
-var frutas=0;
-while(frutas<=10){
+var frutas = 5;
+while(frutas <= 10){
     console.log("Temos " + frutas + " frutas agora");
     frutas++;
 }
+
+// The Do While Loop
+// do {
+//     code block
+// }
+// while(condition);
+
+var do_while = 20;
+do {
+    console.log("Do While Loop: " + do_while);
+    do_while++;
+}
+while(do_while<=25);
